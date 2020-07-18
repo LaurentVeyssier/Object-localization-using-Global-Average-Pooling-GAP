@@ -44,6 +44,6 @@ https://github.com/alexisbcook/ResNetCAM-keras
 
 ## Results
 
-![](asset/car.PNG)
+![](asset/moped.PNG)
 
 ![](asset/langoustine.PNG)
