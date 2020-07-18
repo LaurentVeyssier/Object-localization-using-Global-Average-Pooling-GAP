@@ -28,16 +28,16 @@ https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-loca
 https://github.com/alexisbcook/ResNetCAM-keras
 
 ## Notebook content:
-•	Image preprocessing
-•	Import ResNet, collect weights mapping GAP layer to prediction output layer
-•	Get predicted class and Class Activation Mapping
-•	Assemble the parts to display heatmap
-•	Run the model and display results
+- Image preprocessing
+- Import ResNet, collect weights mapping GAP layer to prediction output layer
+- Get predicted class and Class Activation Mapping
+- Assemble the parts to display heatmap
+- Run the model and display results
 
 ## Implementation:
-•	Download the repository
-•	Insert your own images in the “images” folder
-•	Run the notebook
+- Download the repository
+- Insert your own images in the “images” folder
+- Run the notebook
 
 ## Additional notes:
 - Refer to Alexis Cook’s informative paper for more information on the principles.
