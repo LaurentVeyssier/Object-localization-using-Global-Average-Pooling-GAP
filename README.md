@@ -1,4 +1,4 @@
-# Object-localization-using-Global-Average-Pooling-GAP-
+# Object-localization-using-Global-Average-Pooling-GAP
 ResNet-50 used for object localization on sample images using features learned for classification.
 
 ## Description
