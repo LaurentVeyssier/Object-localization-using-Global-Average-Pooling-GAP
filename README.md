@@ -10,7 +10,7 @@ Convolutional layers of CNNs behave as object detectors despite no supervision o
 
 Such networks apply Global Average Pooling (GAP) to the convolutional feature volume obtained at the end of the network. Those models use the result as features for a fully-connected layer that produces the desired output (categorical or otherwise). Given this simple connectivity structure, the image regions important to the output can be identified by projecting back the weights of the output layer on to the convolutional feature maps, a technique called class activation mapping. ResNet-50 uses such GAP layer to feed its final prediction layer.
 
-![](ClassActivationMapping.PNG)
+![](asset/ClassActivationMapping.PNG)
 
 Note that GAP is initially used to reduce the number of parameters of a CNN model. Indeed GAP removes the need for the traditional portion of two to three fully connected layers by providing an output which can sipmply be used as a input to the final classification task. The localization capability is therefore an additional advantage of this approach.
 
@@ -44,6 +44,6 @@ https://github.com/alexisbcook/ResNetCAM-keras
 
 ## Results
 
-![](car.PNG)
+![](asset/car.PNG)
 
-![](langoustine.PNG)
+![](asset/langoustine.PNG)
